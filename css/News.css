@@ -1,0 +1,56 @@
+
+.nav-link{
+    color: white !important ;
+    font-size: larger!important;
+    border: 1px solid none;
+
+}
+
+.nav-item{
+    margin-left: 20px !important;
+}
+.navbar-nav{
+    margin-left: 50px;
+}
+#login-btn{
+    border: 1px solid white;
+    color: white;
+    position: absolute;
+    transform: translate(2350%,8%);
+font-size: large;
+}
+#login-btn:hover{
+    color:black !important;
+    background-color: white;
+    transition: 0.2s;
+}
+.jambo{
+    padding:none !important;
+}
+.active{
+    background-color: white;
+    color: black !important;
+}
+.active:hover{
+    background-color: black;
+    color: white !important;
+}
+.navbar{
+    background-color: black;
+}
+.text{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+#join{
+    position: absolute;
+    margin-top: 160% ;
+    margin-bottom: 50%;
+    margin-left: -20%;
+    margin-right: -10%;
+    size: larger;
+}

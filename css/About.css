@@ -1,0 +1,178 @@
+/* navbar menu  */
+body::-webkit-scrollbar {
+    display: none;
+}
+.nav-link{
+    color: white !important ;
+    font-size: larger!important;
+    display:flex;
+    
+
+}
+
+.nav-link:hover{
+    color: white !important;
+
+}
+
+.nav-item{
+    float: right;
+}
+
+
+.active:hover{
+border-bottom: 1px solid white;
+}
+.navbar{
+    background-color: black;
+}
+ 
+.underline {
+    display: inline-block;
+    position: relative;
+    color: white;
+  }
+  
+  .underline:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .underline:hover:after {
+    transform: scaleX(1);
+  }
+
+  .active{
+      border-bottom: 1px solid white;
+  }
+/* login  */
+
+#login-btn{
+    border: 1px solid white;
+    color: white;
+    position: absolute;
+    transform: translate(2350%,8%);
+font-size: large;
+}
+#login-btn:hover{
+    color:black !important;
+    background-color: white;
+    transition: 0.2s;
+}
+
+
+
+
+
+
+
+/* footer */
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  
+  a:hover, a:focus {
+    text-decoration: none;
+  }
+  
+  .form-control {
+    background: #212529;
+    border-color: #545454;
+  }
+  
+  .form-control:focus {
+    background: #212529;
+  }
+  
+  footer {
+    background: #212529;
+  }
+  
+
+/* About us div */
+
+.overlay {
+    background:rgba(0, 0, 0, 0.5);
+    position:absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    color: white;
+    opacity: 1;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+    font-size: 7rem;
+    padding-top: 400px ;
+    padding-left: 700px;
+
+}
+img {
+    display: block;
+    width: 100%;
+}
+.AboutUs{
+    position: relative;
+    width: 100%;
+}
+.AboutUs-text {
+    font-size: 1.8rem;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+
+/* responsive site  : ( all devices ) */ 
+
+
+/* small mobile :320px. */
+@media (max-width: 767px){
+.nav-item{
+width: 15%;
+}
+.un{
+    width: 120%;
+}
+ .un:hover{
+    width: 120%;
+}
+.nav-item:hover{
+    width: 15%;
+    transition: 1s;
+}
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .un{
+        width: 200%;
+    }
+    .un:hover{
+        width: 200%;
+        transition: 1s;
+    }
+    .nav-item{
+        width: 15%;
+    }
+    .nav-item:hover{
+    width: 15%;
+    transition: 1s;
+    }
+}
+
+
+

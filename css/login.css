@@ -1,0 +1,139 @@
+
+
+.nav-link{
+  color: white !important ;
+  font-size: larger!important;
+  display:flex;
+  
+
+}
+
+.nav-link:hover{
+  color: white !important;
+
+}
+
+.nav-item{
+  float: right;
+}
+
+
+.active:hover{
+border-bottom: 1px solid white;
+}
+.navbar{
+  background-color: black;
+}
+
+.underline {
+  display: inline-block;
+  position: relative;
+  color: white;
+}
+
+.underline:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.underline:hover:after {
+  transform: scaleX(1);
+}
+
+.active{
+    border-bottom: 1px solid white;
+}
+/* login  */
+
+
+#login-btn{
+  border: 1px solid white;
+  color: white;
+  position: absolute;
+  transform: translate(2350%,8%);
+font-size: large;
+}
+#login-btn:hover{
+  color:black !important;
+  background-color: white;
+  transition: 0.2s;
+}
+
+.login-container{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 70%;
+  
+}
+.login-logo{
+  position: relative;
+  margin-left: -41.5%;
+}
+.login-logo img{
+  position: absolute;
+  width: 20%;
+  margin-top: 19%;
+  background: #282726;
+  border-radius: 4.5rem;
+  padding: 5%;
+}
+.login-form-1{
+  padding: 9%;
+  background:#282726;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3{
+  text-align: center;
+  margin-bottom:12%;
+  color:#fff;
+}
+
+.login-form-2 h3{
+  text-align: center;
+  margin-bottom:12%;
+  color: #fff;
+}
+.btnSubmit{
+  font-weight: 600;
+  width: 50%;
+  color: #282726;
+  background-color: #fff;
+  border: none;
+  border-radius: 1.5rem;
+  padding:2%;
+}
+.btnForgetPwd{
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+.btnForgetPwd:hover{
+  text-decoration:none;
+  color:#fff;
+}
+
+
+/* footer */
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+
+footer {
+  background: #212529;
+}
